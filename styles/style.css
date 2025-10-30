@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#side-panel {
+    position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            max-width: 400px;
+            max-height: 650px;
+            overflow: scroll;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    flex-grow: 1;
+}
+
+button {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #b9b9b9;
+    cursor:pointer;
+}
+
+button:active {
+    background-color: #b9b9b9;
+}
+
+table {
+    border-radius: 8px;
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 1024px) {
+    #side-panel {
+        display: none;
+    }
+}

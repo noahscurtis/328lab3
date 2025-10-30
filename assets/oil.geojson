@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ghawar Field",
+        "capacity_billion_bbl": 88,
+        "current_bpd_million_bbl": 3.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.2558, 25.213]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burgan Field",
+        "capacity_billion_bbl": 66,
+        "current_bpd_million_bbl": 1.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.9611, 29.0054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ahvaz Field",
+        "capacity_billion_bbl": 25,
+        "current_bpd_million_bbl": 0.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.8121, 31.3118]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper Zakum Oil Field",
+        "capacity_billion_bbl": 21,
+        "current_bpd_million_bbl": 0.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.1370, 24.4725]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safaniya Oil Field",
+        "capacity_billion_bbl": 30,
+        "current_bpd_million_bbl": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.3890, 26.4490]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Qurna Field",
+        "capacity_billion_bbl": 33,
+        "current_bpd_million_bbl": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.7150, 32.1000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manifa Field",
+        "capacity_billion_bbl": 11,
+        "current_bpd_million_bbl": 0.90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.5800, 26.0300]
+      }
+    }
+  ]
+}
