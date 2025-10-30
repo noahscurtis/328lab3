@@ -50,19 +50,23 @@ async function geojsonFetch() {
             type: 'geojson',
             data: oil
         });
-
-        map.addLayer({
-            'id': 'oil-layer',
-            'type': 'circle',
-            'source': 'oil',
-            'paint': {
-                'circle-radius': 8,
-                'circle-stroke-width': 2,
-                'circle-color': 'red',
-                'circle-stroke-color': 'white'
-            }
-        });
+        map.loadImage('assets/barrel-oil-svgrepo-com.png', function(error, image) {
+            if (error) {
+                console.log('couldnt load image', error);
+            } else {
+            map.addImage('oil-barrel', image);
+            map.addLayer({
+                id: 'oil-layer',
+                type: 'symbol',
+                source: 'oil',
+                layout: {
+                    'icon-image': 'oil-barrel',
+                    'icon-size': 0.05
+                }
+            });
+        }
     });
+});
 
     table = document.getElementsByTagName("table")[0];
     let row, cell1, cell2, cell3;
