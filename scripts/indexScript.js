@@ -1,7 +1,3 @@
-
-// make a sort table function. (5pts)
-
-
 mapboxgl.accessToken = 'pk.eyJ1IjoibmN1cnRpczQiLCJhIjoiY21oY2syc2FyMWJkbTJrcHpvbHVpbTh3NiJ9.IkITHi8RWT9S7GeJKh-QUQ';
 
 let map = new mapboxgl.Map({
